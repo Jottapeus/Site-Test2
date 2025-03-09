@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: antiquewhite;
+}
+
+header {
+    margin: 0.5rem 0;
+
+}
+
+.conteiner {
+    background-color: rgba(209, 119, 2, 0.856);
+    padding: 20px;
+    margin: 0px 10rem;
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    margin: 1rem 0px ;
+}
+
+.conteiner2 {
+    background-color: rgb(241, 189, 119);
+    margin: 50px 50px;
+    border-radius: 10px;
+    height: 25rem;
+    width: 21rem;
+    top: 2rem;
+}
+
+.descricao {
+    color: black;
+}
+
+.pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px 10px;
+}
